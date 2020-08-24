@@ -13,13 +13,13 @@ public class Pokemon {
     private String nome;
     private String categoria;
     private String habilidade;
-    private String peso;
+    private double peso;
 
     public Pokemon() {
         super();
     }
 
-    public Pokemon(String id, String nome, String categoria, String habilidade, String peso) {
+    public Pokemon(String id, String nome, String categoria, String habilidade, double peso) {
         this.id = id;
         this.nome = nome;
         this.categoria = categoria;
@@ -59,11 +59,11 @@ public class Pokemon {
         this.habilidade = habilidade;
     }
 
-    public String getPeso() {
+    public double getPeso() {
         return peso;
     }
 
-    public void setPeso(String peso) {
+    public void setPeso(double peso) {
         this.peso = peso;
     }
 
